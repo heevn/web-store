@@ -1,0 +1,36 @@
+.basket-device {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+	border: var(--border-primary);
+	border-radius: 4px;
+	font-size: 1.4rem;
+}
+
+.basket-device-wrapper {
+	display: flex;
+	column-gap: 15px;
+}
+
+.basket-device-img {
+	width: 40px;
+	height: 40px;
+}
+
+.basket-device-form {
+	display: flex;
+	column-gap: 10px;
+}
+
+.basket-device-button {
+	border: var(--border-primary);
+	cursor: pointer;
+	background-color: white;
+	border-radius: 4px;
+	width: 40px;
+	transition: var(--transition-primary);
+}
+
+.basket-device-button:hover {
+	background-color: lightgray;
+}

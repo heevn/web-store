@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  position: sticky;
+  background-color: white;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  height: 10vh;
+  font-size: 36px;
+  box-shadow: var(--box-shadow-primary);
+}
+
+.header-form {
+  display: flex;
+  column-gap: 10px;
+}
+
+.header-button {
+  background-color: white;
+  padding: 10px;
+  font-size: 22px;
+  border-radius: 4px;
+  font-family: 'Poppins', sans-serif;
+  border: var(--border-primary);
+  cursor: pointer;
+  transition: var(--transition-primary);
+}
+
+.header-button:hover {
+  background-color: lightgray;
+}
+
+.header-basket {
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  transition: var(--transition-primary);
+}

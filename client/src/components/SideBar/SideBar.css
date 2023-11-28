@@ -1,0 +1,31 @@
+.sidebar {
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+  box-shadow: var(--box-shadow-primary);
+  width: 250px;
+  height: fit-content;
+  border-radius: 4px;
+  margin: 20px;
+  font-size: 22px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.sidebar-content {
+  padding: 20px;
+  border: var(--border-primary);
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.sidebar-content:hover {
+  background-color: lightgray;
+}
+
+.sidebar-content-extend {
+  background-color: rgb(173, 173, 173);
+}
+
+.sidebar-content:active {
+  background-color: gray;
+}

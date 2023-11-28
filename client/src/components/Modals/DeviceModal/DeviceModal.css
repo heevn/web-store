@@ -1,0 +1,99 @@
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.modal-window {
+  display: block; 
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4); 
+}
+
+.modal-content {
+  flex-wrap: nowrap;
+  background-color: #fefefe;
+  justify-content: space-between;
+  position: relative;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 25%;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+.wrapper {
+  gap: 20px;
+}
+
+.modal-content input {
+  font-family: 'Poppins', sans-serif;
+  height: 40px;
+  width: 95%;
+  border: var(--border-primary);
+  border-radius: 4px;
+  padding: 5px;
+  font-size: 15px;
+}
+
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.modal-button {
+  font-family: 'Poppins', sans-serif;
+  background-color: white;
+  border: var(--border-primary);
+  width: 80px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: var(--transition-primary);
+}
+
+.modal-button:hover {
+  background-color: lightgray;
+}
+
+.button-span-wrapper {
+  display: flex;
+  gap: 10px;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top: -300px; opacity: 0}
+  to {top: 0; opacity: 1}
+}
+
+.flex-dir-column {
+  flex-direction: column;
+}
+
+.modal-prop-wrapper {
+  flex-direction: row;
+  gap: 20px;
+}
+
+.modal-prop-wrapper input {
+  width: 30%
+}

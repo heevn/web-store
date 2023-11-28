@@ -1,0 +1,19 @@
+.device-add-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+	height: 40px;
+	width: 40px;
+	padding:10px;
+	margin: auto 0;
+	transition: 0.2s;
+	background-color: white;
+	border-radius: 50%;
+	cursor: pointer;
+	box-shadow: var(--box-shadow);
+}
+
+.device-add-button:hover {
+	box-shadow: var(--box-shadow-hover);
+}

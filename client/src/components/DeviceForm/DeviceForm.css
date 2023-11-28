@@ -1,0 +1,23 @@
+.form-button {
+  font-family: 'Poppins', sans-serif;
+  background-color: white;
+  border: var(--border-primary);
+  width: 80px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: var(--transition-primary);
+}
+
+.form-select {
+  font-family: 'Poppins', sans-serif;
+  width: 40%;
+  height: 40px;
+  border-radius: 4px;
+  border: var(--border-primary);
+}
+
+input[type='file'] {
+	width: auto;
+	height: auto;
+	border: none;
+}

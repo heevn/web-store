@@ -1,0 +1,65 @@
+.layout {
+  display: flex;
+  height: 87.9vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.device-about {
+  display: flex;
+  background-color: white;
+  width: 60%;
+  height: 100%;
+  align-items: center;
+}
+
+.device-about-devicepic {
+  display: flex;
+  width: 40%;
+  height: 70%;
+  padding: 40px;
+  object-fit: contain;
+}
+
+.device-about-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.device-about-name {
+  font-size: 48px;
+}
+
+.device-about-description {
+  border-bottom: var(--border-primary);
+}
+
+.device-about-rating {
+  display: flex;
+  justify-content: space-between;
+  font-size: 36px;
+}
+
+.device-about-starpic {
+  width: 20px;
+  height: 20px;
+}
+
+.device-about-add-to-basket {
+  width: fit-content;
+  height: fit-content;
+  border: var(--border-primary);
+  border: 4px;
+  cursor: pointer;
+  transition: var(--transition-primary);
+}
+
+.device-about-add-to-basket:hover {
+  background-color: lightgray;
+}
+
+.device-about-basketpic {
+  width: 50px;
+  height: 50px;
+}

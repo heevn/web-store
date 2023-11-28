@@ -1,0 +1,17 @@
+.basket-layout {
+  height: 87.9vh;
+  display: flex;
+  justify-content: center;
+}
+
+.basket-wrapper {
+  background-color: white;
+  width: 60%;
+  padding: 30px;
+}
+
+.basket-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
